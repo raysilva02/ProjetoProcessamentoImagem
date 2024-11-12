@@ -5,6 +5,9 @@
 <h2>Guia prático de como executar a aplicação</h2>
 <h3>Requisitos</h3>
 <li>Instalar o Python: <href>https://www.python.org/downloads/</href></li>
-<li>Instalar as bliotecas OpenCV e Numpy:</li>
-<li><i>--pip install numpy--</i></li>
-<li><i>--pip install opencv-python--</i></li>
+<li>Instalar as bibliotecas OpenCV e Numpy:</li>
+<p><i>--pip install numpy--</i></p>
+<p><i>--pip install opencv-python--</i></p>
+<p>OBS: Comandos para rodas no terminal do VSCode</p>
+
+<h3>📁 NoseBrush</h3>
