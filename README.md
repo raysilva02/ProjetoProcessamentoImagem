@@ -4,8 +4,7 @@
 
 <h2>Guia prático de como executar a aplicação</h2>
 
-## Funcionalidades
-
+<h3>Funcionalidades</h3>
 - **Desenho com o Nariz**: Movimente seu nariz para desenhar linhas na tela em tempo real.
 - **Controles**:
   - Pressione **'d'** para ativar ou desativar o modo de desenho.
