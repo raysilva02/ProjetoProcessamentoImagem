@@ -5,11 +5,12 @@
 <h2>Guia prático de como executar a aplicação</h2>
 
 <h3>Funcionalidades</h3>
-- **Desenho com o Nariz**: Movimente seu nariz para desenhar linhas na tela em tempo real.
-- **Controles**:
-  - Pressione **'d'** para ativar ou desativar o modo de desenho.
-  - Pressione **'c'** para limpar a tela de desenho.
-  - Pressione **'q'** para sair da aplicação.
+<p><b>Desenho com o Nariz:</b> Movimente seu nariz para desenhar linhas na tela em tempo real.</p>
+<p><b>Controles:</b></p> 
+<li>Pressione **'d'** para ativar ou desativar o modo de desenho.</li>
+<li>Pressione **'c'** para limpar a tela de desenho.</li>
+<li>Pressione **'q'** para sair da aplicação.</li>
+
 <h3>Requisitos</h3>
 <li>Instalar o Python: <href>https://www.python.org/downloads/</href></li>
 <li>Instalar as bibliotecas OpenCV e Numpy:</li>
