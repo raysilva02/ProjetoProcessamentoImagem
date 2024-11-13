@@ -3,10 +3,10 @@ import numpy as np
 
 #modelos de rosto e nariz
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
-nose_cascade = cv2.CascadeClassifier('nose.xml')
+nose_cascade = cv2.CascadeClassifier('NoseBrush/nose.xml')
 
 #capturar a webcam
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 drawing = False  #desenho ativo/desativo
 last_nose_position = None  #posição do nariz
@@ -38,7 +38,7 @@ while True:
             
             if drawing: #desenhando
                 if last_nose_position:
-                    cv2.line(draw_layer, last_nose_position, nose_center, (0, 0, 255), 4)
+                    cv2.line(draw_layer, last_nose_position, nose_center, (0, 0, 255), 14)
                 last_nose_position = nose_center
         else:
             last_nose_position = None
