@@ -53,3 +53,5 @@ Essas técnicas ajudam a tornar o desenho fluido e responsivo ao movimento do na
    git clone https://github.com/raysilva02/ProjetoProcessamentoImagem.git
    cd ProjetoProcessamentoImagem
 
+![Desenhando](img_desenhando.png)
+
