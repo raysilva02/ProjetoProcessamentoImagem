@@ -20,6 +20,7 @@
 <p><i>--pip install numpy--</i></p>
 <p>OBS: Comandos para rodas no terminal do VSCode</p>
 
+##Arquivos
 <h3>📁 NoseBrush</h3>
 Este projeto usa Python e OpenCV para criar uma aplicação de "pintura com o nariz". Utilizando a webcam, o projeto detecta o rosto e o nariz do usuário, permitindo desenhar na tela conforme o movimento do nariz.
 
