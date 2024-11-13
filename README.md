@@ -24,3 +24,31 @@
 Este projeto usa Python e OpenCV para criar uma aplicação de "pintura com o nariz". Utilizando a webcam, o projeto detecta o rosto e o nariz do usuário, permitindo desenhar na tela conforme o movimento do nariz.
 
 <h3>NoseBrush.py</h3>
+Aplicação em Python que faz a captura da webcam e o reconhecimento do rosto do usuário. 
+
+<h3>haarcascade_frontalface_default.xml</h3>
+Este arquivo foi treinado para reconhecer rostos humanos. Ele é um dos arquivos de Haar Cascade pré-treinados fornecidos pelo OpenCV.
+<h3>nose.xml</h3> 
+Este arquivo detecta a posição do nariz no rosto e foi obtido do repositório [SimpleCV no GitHub](https://github.com/sightmachine/SimpleCV). Esse arquivo é fundamental para que o projeto reconheça o nariz e permita desenhar com seu movimento.
+
+## Detalhes Técnicos
+
+Além da detecção de rosto e nariz, o projeto implementa alguns aspectos de processamento de imagem:
+
+- **Acesso a Vídeo**: O programa captura vídeo ao vivo pela webcam usando OpenCV.
+- **Filtros de Imagem**:
+  - **Escala de Cinza**: Converte o vídeo para escala de cinza, facilitando a detecção de características do rosto e nariz.
+- **Processamento de Imagem**:
+  - **Camada Transparente para Desenho**: O desenho é feito em uma camada separada, facilitando a combinação do desenho com o vídeo original.
+- **Identificação e Rastreio**:
+  - **Detecção de Nariz**: A posição do nariz é detectada em cada quadro e usada para rastrear o movimento, possibilitando o desenho com precisão.
+  
+Essas técnicas ajudam a tornar o desenho fluido e responsivo ao movimento do nariz, criando uma experiência interativa para o usuário.
+
+## Instalação
+
+**Clone este repositório**:
+   ```bash
+   git clone https://github.com/raysilva02/ProjetoProcessamentoImagem.git
+   cd ProjetoProcessamentoImagem
+
