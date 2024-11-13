@@ -1,5 +1,5 @@
 # Processamento de imagem utilizando Python 📷🐍| Pincel de Nariz (Nose Brush) 👃
-<li>Rayana Caroline da Silva - PC30165867</li>
+<li>Rayana Caroline da Silva - PC3016587</li>
 <li>Engenharia da Computação</li></li>
 
 <h2>Guia prático de como executar a aplicação</h2>
